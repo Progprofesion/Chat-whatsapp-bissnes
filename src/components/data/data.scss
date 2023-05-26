@@ -1,0 +1,41 @@
+.data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: aliceblue;
+    width: 500px;
+    height: 75px;
+    padding: 0 10px;
+
+    &__id {
+        padding-left: 3px;
+    }
+
+    &__token {
+        padding-left: 3px;
+    }
+
+    &__createChat {
+        width: 50px;
+        height: 50px;
+    }
+
+    &__wrappPhone {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 50px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.266);
+    }
+
+    &__phone {
+        width: 470px;
+        height: 35px;
+        border-radius: 5px;
+        padding-left: 10px;
+        outline: none;
+        border: none;
+        background: rgba(0, 0, 0, 0.055);
+    }
+}
